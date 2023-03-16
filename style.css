@@ -1,8 +1,6 @@
 body{
   margin: 0;
   padding: 0;
-  background: url(img/bg.png) no-repeat;
-  background-size: cover;
 }
 @font-face {
 font-family: Product-Sans;
@@ -18,7 +16,6 @@ src: url(font/Product-Sans-Bold.ttf);
   color: white;
   font-family: 'Product-Sans',sans-serif;
   border-radius: 20px;
-  box-shadow: 0 0 50px 15px #48abe0;
 }
 .box-img{
   border-radius: 50%;
@@ -55,4 +52,49 @@ ul{
 }
 .box li a:hover{
   color: #b9b9b9;
+}
+
+body {
+width: 100vw;
+height: 100vh;
+margin: 0;
+background: black;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+canvas {
+position: absolute;
+top:0;
+left:0;
+z-index: -1;
+}
+.text-box {
+font-size: 60px;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 7px;
+word-spacing: 12px;
+text-transform: uppercase;
+color:rgb(238, 238, 238);
+}
+.button-wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+flex-direction: row;
+}
+.button {
+display: inline-block;
+font-size: 16px;
+font-weight: bold;
+padding: 15px;
+margin-left:20px;
+margin-right:20px;
+word-spacing: normal;
+letter-spacing: 5px;
+border: 1px solid white;
+background: black;
+cursor: pointer;
 }
