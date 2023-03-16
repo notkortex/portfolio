@@ -16,6 +16,9 @@ src: url(font/Product-Sans-Bold.ttf);
   color: white;
   font-family: 'Product-Sans',sans-serif;
   border-radius: 20px;
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
 }
 .box-img{
   border-radius: 50%;
@@ -97,4 +100,21 @@ letter-spacing: 5px;
 border: 1px solid white;
 background: black;
 cursor: pointer;
+}
+
+@keyframes scale {
+100% {
+  transform: scale(1);
+}
+}
+
+.box:nth-child(1) {
+animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+100% {
+  opacity: 1;
+  filter: blur(0);
+}
 }
