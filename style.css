@@ -6,6 +6,7 @@ body{
      font-family: Product-Sans;
      src: url(font/Product-Sans-Bold.ttf);
 }
+/* Main Container*/
  .box{
      width: 450px;
      background: rgba(0, 0, 0, 0);
@@ -16,30 +17,35 @@ body{
      font-family: 'Product-Sans',sans-serif;
      display: inline-block;
      opacity: 0;
-     filter: blur(4px);
 }
+/* Profile Picture */
  .box-img{
      border-radius: 50%;
      width: 200px;
      height: 200px;
 }
+/* Name */
  .box h1{
      font-size: 40px;
      letter-spacing: 4px;
      font-weight: 100;
 }
+/* Bio */
  .box h5{
      font-size: 20px;
      letter-spacing: 3px;
      font-weight: 100;
 }
+/* Quote */
  .box p{
      text-align: justify;
 }
+/* Gap Thingy I Guess */
  ul{
      margin: 0;
      padding: 0;
 }
+/* Social Buttons */
  .box li{
      display: inline-block;
      margin: 6px;
@@ -54,6 +60,7 @@ body{
  .box li a:hover{
      color: #b9b9b9;
 }
+/* Music Player */
  body {
      width: 100vw;
      height: 100vh;
@@ -98,6 +105,7 @@ body{
      background: black;
      cursor: pointer;
 }
+/* Animation When Loading Website */
  @keyframes scale {
      100% {
          transform: scale(1);
