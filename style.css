@@ -8,13 +8,12 @@ body{
 }
  .box{
      width: 450px;
-     background: rgba(0, 0, 0, 0.4);
+     background: rgba(0, 0, 0, 0);
      padding: 40px;
      text-align: center;
      margin: auto;
      color: white;
      font-family: 'Product-Sans',sans-serif;
-     border-radius: 20px;
      display: inline-block;
      opacity: 0;
      filter: blur(4px);
