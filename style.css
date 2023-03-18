@@ -112,7 +112,7 @@ canvas {
    }
 }
 .box:nth-child(1) {
-    animation: fade-in 2.6s 0.2s forwards cubic-bezier(0.22, 0, 1, 0);
+    animation: fade-in 3.0s 0.2s forwards cubic-bezier(0.22, 0, 1, 0);
 }
 @keyframes fade-in {
     100% {
