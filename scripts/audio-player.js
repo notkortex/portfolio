@@ -237,7 +237,7 @@
         :host {
           width: 100%;
           max-width: 400px;
-          font-family: sans-serif;
+          font-family: 'Product-Sans',sans-serif;
         }
         
         * {
