@@ -283,6 +283,7 @@
             border: none;
             text-indent: -999999px;
             overflow: hidden;
+            cursor: url('img/cursor.png'), auto;
         }
         
         .play-btn.playing {
@@ -295,6 +296,7 @@
             height: 30px;
             background: url("img/audio-player-icon-sprite.png") 50% center/500% 100% no-repeat;
             position: relative;
+            cursor: url('img/cursor.png'), auto;
         }
         
         .volume-bar.half {
@@ -316,6 +318,7 @@
             margin: 0;
             border-radius: 2px;
             background: #ffffff;
+            cursor: url('img/cursor.png'), auto;
         }
         
         .volume-field::-webkit-slider-thumb {
@@ -365,6 +368,7 @@
             margin: 0;
             overflow: hidden;
             background: none;
+            cursor: url('img/cursor.png'), auto;
         }
         
         .progress-bar::-webkit-slider-thumb {
