@@ -29,14 +29,17 @@
    </body>
    </div>
    <body>
-      <div class="loader-wrapper">
-         <span class="loader"><span class="loader-inner"></span></span>
-      </div>
-      <script>
-         $(window).on("load", function () {
-           $(".loader-wrapper").fadeOut("slow");
-         });
-      </script>
+      
+<body>
+   <div class="loader-container">
+       <div class="loader"></div>
+   </div>
+   <script>
+       $(window).on("load",function(){
+           $(".loader-container").fadeOut(1000);
+       });
+   </script>
+</body>
       <div class="cursor"></div>
       <script src="scripts/cursor.js"></script>
    </body>
