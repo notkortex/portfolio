@@ -51,6 +51,14 @@ body {
 	height: 130px;
 }
 
+.box-outline {
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -5.5%);
+}
+
 .box h1 {
 	font-size: 40px;
 	letter-spacing: 4px;
@@ -103,6 +111,7 @@ ul {
 
 .git a:hover {
 	color: #bfbfbf;
+	margin-top: 12px !important; 
 }
 
 .git a i {
