@@ -1,3 +1,3 @@
 # Kortex's Portfolio
 ## Little portfolio for fun
-![image](https://github.com/notkortex/portfolio/assets/118857854/4227eaab-446a-4bd4-b0c0-e99f936d8c4f)
+![Screenshot 2023-10-03 5 51 21 PM](https://github.com/notkortex/portfolio/assets/118857854/63115ccb-93b5-4515-8027-8fb288e806ae)
