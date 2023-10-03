@@ -12,9 +12,10 @@ body {
 	width: 100%;
 	background-size: cover;
 	background-position: cover;
-	animation: fadeInAnimation ease 2s;
+	animation: fadeInAnimation ease 0.05s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
+	overflow: hidden !important;
 }
 
 @keyframes fadeInAnimation {
@@ -43,6 +44,7 @@ body {
 	transform: translate(-50%, -55%);
 	border-radius: 10px;
 	padding-bottom: 99px;
+	overflow: hidden !important;
 }
 
 .box-img {
@@ -125,3 +127,13 @@ ul {
 	  scale: 0.5;
 	}
   }
+
+.click_anywhere {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden !important;
+	overflow-y: hidden !important;
+}
