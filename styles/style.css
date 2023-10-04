@@ -22,6 +22,7 @@ body {
 	0% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 1;
 	}
@@ -113,7 +114,7 @@ ul {
 
 .git a:hover {
 	color: #bfbfbf;
-	margin-top: 12px !important; 
+	margin-top: 12px !important;
 }
 
 .git a i {
@@ -124,9 +125,9 @@ ul {
 
 @media only screen and (max-width: 600px) {
 	body {
-	  scale: 0.5;
+		scale: 0.5;
 	}
-  }
+}
 
 .click_anywhere {
 	margin: 0;
@@ -135,5 +136,17 @@ ul {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	overflow: hidden !important;
-	overflow-y: hidden !important;
+	background-color: #151517;
+	width: 1200vw;
+	height: 200vh;
+	text-align: center;
+}
+
+.click_anywhere h4 {
+	color: white;
+	font-size: 12pt;
+	font-family: 'Integral', sans-serif;
+	transform: translate(0%, 92.5vh);
+	text-shadow: 4px 4px 29px rgba(255, 255, 255, 0.12);
+	overflow: hidden !important;
 }
