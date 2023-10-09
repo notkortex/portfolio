@@ -6,8 +6,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url("/img/topigraph.gif") no-repeat;
-	backdrop-filter: blur(9px);
+	background: url("/img/pattern.png") no-repeat;
 	height: 100vh;
 	background-repeat: no-repeat;
 	width: 100%;
