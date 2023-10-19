@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Integral;
+  src: url(/fonts/Outfit-Medium.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url("/img/bg.gif") no-repeat;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: cover;
+  animation: fadeInAnimation ease 0.05s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  overflow: hidden !important;
+}
+
+.box {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 2.1%;
+  color: white;
+  font-family: "Integral", sans-serif;
+  display: inline-block;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  border-radius: 10px;
+  padding-bottom: 99px;
+  overflow: hidden !important;
+}
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.box-img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+.box-outline {
+  width: 145px;
+  height: 145px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -5.5%);
+}
+
+.text-box {
+  margin-top: 0px;
+}
+.text-box p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.git a {
+  width: 450px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 2.9%;
+  color: white;
+  font-family: "Integral", sans-serif;
+  display: inline-block;
+  opacity: 1;
+  position: absolute;
+  transform: translate(-50%);
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+  transition: all ease-in-out 250ms;
+}
+.git a:hover {
+  color: #bfbfbf;
+  margin-top: 12px !important;
+}
+.git a i {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.click_anywhere {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden !important;
+  background-color: #151517;
+  width: 1200vw;
+  height: 200vh;
+  text-align: center;
+}
+.click_anywhere h4 {
+  color: white;
+  font-size: 12pt;
+  font-family: "Integral", sans-serif;
+  transform: translate(0%, 92.5vh);
+  text-shadow: 4px 4px 29px rgba(255, 255, 255, 0.12);
+  overflow: hidden !important;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    scale: 0.5;
+  }
+}/*# sourceMappingURL=main.css.map */
