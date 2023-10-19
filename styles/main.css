@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Integral;
+  font-family: Outfit;
   src: url(/fonts/Outfit-Medium.ttf);
 }
 body {
@@ -25,7 +25,7 @@ body {
   margin: auto;
   margin-top: 2.1%;
   color: white;
-  font-family: "Integral", sans-serif;
+  font-family: "Outfit", sans-serif;
   display: inline-block;
   opacity: 1;
   position: absolute;
@@ -81,7 +81,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   margin-top: 2.9%;
   color: white;
-  font-family: "Integral", sans-serif;
+  font-family: "Outfit", sans-serif;
   display: inline-block;
   opacity: 1;
   position: absolute;
@@ -116,7 +116,7 @@ body {
 .click_anywhere h4 {
   color: white;
   font-size: 12pt;
-  font-family: "Integral", sans-serif;
+  font-family: "Outfit", sans-serif;
   transform: translate(0%, 92.5vh);
   text-shadow: 4px 4px 29px rgba(255, 255, 255, 0.12);
   overflow: hidden !important;
