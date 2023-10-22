@@ -1,6 +1,7 @@
 @font-face {
   font-family: Outfit;
   src: url(/fonts/Outfit-Medium.ttf);
+  font-display: swap;
 }
 body {
   margin: 0;
