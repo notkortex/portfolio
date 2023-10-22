@@ -1,2 +1,7 @@
 User-agent: *
-Disallow: /
+Disallow: /.well-known/
+Allow: /styles/
+Allow: /dist/
+Allow: /fonts/
+Allow: /img/
+Crawl-delay: 10
