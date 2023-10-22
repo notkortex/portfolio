@@ -2,4 +2,4 @@
 
 ## Little portfolio for fun
 
-![Screenshot 2023-10-03 5 51 21 PM](https://github.com/notkortex/portfolio/assets/118857854/63115ccb-93b5-4515-8027-8fb288e806ae)
+![image](https://github.com/notkortex/portfolio/assets/118857854/e27c7ca0-89bd-4716-8b82-a26cbd7d623a)
