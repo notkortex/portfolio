@@ -116,8 +116,16 @@ i:hover {
   .topbar {
     transform: translate(-25%, 0%);
     width: 200%;
-    left: 0;
-    right: 0;
     top: -50vh;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+@media screen and (max-height: 600px) {
+  body {
+    scale: 0.8;
+  }
+  .topbar {
+    transform: translate(-25%, 0%);
+    top: -12.5vh;
+    width: 200%;
+  }
+} /*# sourceMappingURL=main.css.map */

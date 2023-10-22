@@ -2,7 +2,7 @@ $color_1: #fff;
 $color_2: #bfbfbf;
 $font-family_1: Outfit, sans-serif;
 $background-color_1: #151517;
-$background-color_2: rgba(0, 0, 0, .4);
+$background-color_2: rgba(0, 0, 0, 0.4);
 
 @font-face {
   font-family: Outfit;
@@ -93,7 +93,7 @@ body {
     font-size: 12pt;
     font-family: $font-family_1;
     transform: translate(0, 92.5vh);
-    text-shadow: 4px 4px 29px rgba(255, 255, 255, .12);
+    text-shadow: 4px 4px 29px rgba(255, 255, 255, 0.12);
     overflow: hidden !important;
   }
 }
@@ -107,28 +107,36 @@ body {
   margin-top: 0%;
 }
 
-  i {
-    transition: all ease-in-out 250ms;
-    color: $color_1;
-    margin-top: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
-    scale: 1.75;
+i {
+  transition: all ease-in-out 250ms;
+  color: $color_1;
+  margin-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  scale: 1.75;
 
-    &:hover {
-      color: $color_2;
-    }
+  &:hover {
+    color: $color_2;
   }
+}
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   body {
-    scale: .5;
+    scale: 0.5;
   }
   .topbar {
     transform: translate(-25%, 0%);
     width: 200%;
-    left:0;
-    right:0;
-    top:-50vh;
+    top: -50vh;
+  }
+}
+@media screen and (max-height: 600px) {
+  body {
+    scale: 0.8;
+  }
+  .topbar {
+    transform: translate(-25%, 0%);
+    top: -12.5vh;
+    width: 200%;
   }
 }
