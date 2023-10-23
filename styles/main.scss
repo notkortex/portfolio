@@ -130,13 +130,13 @@ i {
     top: -50vh;
   }
 }
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 500px) {
   body {
-    scale: 0.8;
+    scale: 0.5;
   }
   .topbar {
     transform: translate(-25%, 0%);
-    top: -12.5vh;
+    top: -50vh;
     width: 200%;
   }
 }
