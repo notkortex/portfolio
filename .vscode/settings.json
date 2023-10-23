@@ -1,0 +1,6 @@
+{ "github.codespaces.defaultExtensions": [
+    "glenn2223.live-sass",
+    "yandeu.five-server",
+    "esbenp.prettier-vscode"
+  ]
+}
